@@ -1,14 +1,12 @@
 package EX_OOP.ex_2_calculator;
 
-import java.lang.reflect.Array;
-import java.util.Scanner;
-
-import static EX_OOP.ex_2_calculator.Calculate.diffNo;
-
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println(Calculate.sumNo());
-        System.out.println(Calculate.diffNo());
-        System.out.println(Calculate.factorialNo());
+        System.out.println(Calculator.sumNo(4, 5));
+        System.out.println(Calculator.diffNo(4, 5));
+        System.out.println(Calculator.factorialNo(5));
     }
+
+
 }
